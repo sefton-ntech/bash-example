@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+
+openssl aes-256-cbc -d -a -in secret/test -pass file:/etc/build_pass
