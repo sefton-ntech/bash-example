@@ -8,6 +8,7 @@ pwd
 ls -la
 echo "this is a test"
 echo "--- Again with the test"
+echo "--- Again again with the test"
 
 
 echo "--- :evergreen_tree: Build job environment"
