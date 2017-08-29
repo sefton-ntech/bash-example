@@ -6,7 +6,7 @@ echo "--- :package: Build job checkout directory"
 
 pwd
 ls -la
-echo "test"
+echo "this is a test"
 
 
 echo "--- :evergreen_tree: Build job environment"
