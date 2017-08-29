@@ -1,4 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-openssl aes-256-cbc -d -a -in secret/test -pass file:/etc/build_pass
+echo '--- :house_with_garden: Setting up the environment'
+export TEST_ENV_VAR=$(openssl aes-256-cbc -d -a -in secret/test -pass file:/etc/build_pass)
+

@@ -8,6 +8,7 @@ pwd
 ls -la
 echo "this is a test"
 echo "--- Again with the test"
+echo "$TEST_ENV_VAR"
 echo "--- Again again with the test"
 
 
