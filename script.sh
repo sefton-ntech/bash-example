@@ -14,6 +14,7 @@ echo "--- Again again with the test"
 
 echo "--- :evergreen_tree: Build job environment"
 echo "env leaks info"
+echo "no env leaks any more"
 
 echo "+++ :hammer: Example tests"
 
